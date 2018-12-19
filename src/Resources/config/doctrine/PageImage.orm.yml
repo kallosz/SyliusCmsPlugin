@@ -9,3 +9,4 @@ BitBag\SyliusCmsPlugin\Entity\PageImage:
             joinColumn:
                 name: owner_id
                 referencedColumnName: id
+                onDelete: CASCADE
